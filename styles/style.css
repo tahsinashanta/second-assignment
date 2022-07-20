@@ -72,9 +72,23 @@ body{
 
 /* top banner style ends here */
 
+/* ------------------------------------------- */
+
 /* <!-- transfer section style starts here --> */
+
+.container2{
+    display: flex;
+    justify-content: center;
+}
+
+.transfer{
+    box-shadow: 1px 1px 3px rgb(216, 214, 214);
+    border-radius: 5px;
+}
 .transfer > .transfer-img > img{
-    width: 250px; 
+    width: 250px;  
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .transfer-info{
@@ -84,8 +98,40 @@ body{
     max-width: 60%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    row-gap: 15px;
 }
 
+.btn{
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.transfer-h4{
+    margin-bottom: 10px;
+}
+.clock-comment{
+    display: flex;
+    color: rgb(153, 149, 149);
+}
+.clock{
+    margin-right: 40px;
+}
+.fa-clock, .fa-comment-dots{
+    margin-right: 10px;  
+    font-size: 13px;
+    
+}
+
+/* <!-- transfer section style ends here --> */
+
+/* ------------------------------------------- */
+
+/* <!-- aside section style starts here --> */
 .aside{
     display: flex;
     flex-direction: column;
@@ -94,7 +140,7 @@ body{
     padding: 15px;
     border-radius: 10px;
     height: 39vh;
-    margin-right: 30px;
+    margin-right: 20px;
     
     
 }
@@ -113,30 +159,42 @@ body{
     background-color: red;
     color: white;
 }
+/* <!-- aside section style ends here --> */
 
-.container2{
+
+
+/* <!-- footer section style starts here --> */
+
+.footer{
+    background-color: rgb(29, 27, 27);
+    height: 50vh;
+    color: white;
+    margin-top: 100px;
+}
+
+.goal{
+    
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600px;
+
+}
+.footer-info{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    font-size: 14px;
+    color: rgb(187, 187, 187);
+    margin-top: 5%;
+    width: 70%;
+    margin-left: 15%;
 }
-.btn{
-    border: 1px solid black;
-    color: rgb(0, 0, 0);
-    padding: 5px 15px;
-    border-radius: 5px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    background-color: white;
-    margin-bottom: 10px;
-}
-.transfer-h4{
-    margin-bottom: 10px;
-}
-.clock-comment{
+.social-media-links{
     display: flex;
+    justify-content: space-around;
+    margin: 40px;
+
 }
-.clock{
-    margin-right: 40px;
-}
-.fa-clock, .fa-comment-dots{
-    margin-right: 10px;  
+.media-icon{
+    color: white;
+    font-size: 25px;
 }
