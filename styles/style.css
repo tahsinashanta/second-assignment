@@ -1,12 +1,16 @@
+/* google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Poppins', sans-serif;
 }
+
 /* top banner style starts here */
 
 .container{
@@ -67,3 +71,72 @@ body{
 }
 
 /* top banner style ends here */
+
+/* <!-- transfer section style starts here --> */
+.transfer > .transfer-img > img{
+    width: 250px; 
+}
+
+.transfer-info{
+    padding: 10px;
+}
+.transfers{
+    max-width: 60%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    height: 39vh;
+    margin-right: 30px;
+    
+    
+}
+.aside> a{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(54, 54, 54);
+    margin: 10px;
+    padding: 15px;
+    
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.aside > .blog-red{
+    background-color: red;
+    color: white;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.transfer-h4{
+    margin-bottom: 10px;
+}
+.clock-comment{
+    display: flex;
+}
+.clock{
+    margin-right: 40px;
+}
+.fa-clock, .fa-comment-dots{
+    margin-right: 10px;  
+}
